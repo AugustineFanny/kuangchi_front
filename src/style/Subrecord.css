@@ -1,0 +1,107 @@
+.sub{
+    width: 100%;
+    height: 100%;
+}
+.sub_list{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.sub .sub_info{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    align-items: center;
+    padding-top: 10px ;
+    box-sizing: border-box;
+}
+.sub .sub_info .subInfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.sub .sub_info .sub_infos{
+    width: 100%;
+    height: 90%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.sub .sub_info .sub_infos section{
+    width: 33.3%;
+    float: left;
+    font-size: 12px;
+    border-right: 1px solid #e9e9e9;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.sub .sub_info .sub_infos section p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    line-height: 20px; 
+}
+.sub .sub_info .sub_infos section p:nth-child(1){
+    color: #b6b6b6;
+}
+.sub .sub_info .sub_infos section:nth-child(3){
+    border: none;
+}
+.sub .sub_info .sub_title{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.sub .sub_info .sub_title span{
+    display: inline-block;
+}
+.sub .sub_info .sub_title span:nth-child(2){
+    font-weight: bold;
+    font-size: 13px;
+}
+.sub .sub_info .sub_title span:nth-child(3){
+    float: right;
+}
+.sub .sub_info .sub_title .noPay,.sub .sub_info .sub_title .toexamine{
+    color: #f10;
+}
+
+.sub .sub_info .sub_title .complete{
+    color: #ff8d1f;
+}
+.sub .sub_info .sub_title .cancel,.sub .sub_info .sub_title .autocancel{
+    color: #9496a3;
+}
+
+.sub .sub_info .sub_logo{
+    width: 30px;
+    height: 20px;
+    background: #4db872;
+    color: #fff;
+    text-align: center;
+     border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-right: 10px;
+}
+.sub .sub_info .sub_infos .time{
+    color: #bfbfbf;
+    font-size: 12px;
+}
+.sub  .noData{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    font-size: 13px;
+    text-align: center;
+}
+.sub .sub_footer .am-button{
+    font-size: 13px;
+}
+.sub .sub_footer .am-pagination-wrap{
+    font-size: 14px;
+}

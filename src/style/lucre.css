@@ -1,0 +1,43 @@
+.lucre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #232a34;
+    box-sizing: border-box;
+    background: #fff;
+}
+.lucre>div{
+    width: 45%;
+    background: linear-gradient(to right, #988cf2 , #7468e8);
+    background: -webkit-linear-gradient(left, #988cf2 , #7468e8);
+    background: -o-linear-gradient(right, #988cf2, #7468e8); 
+    background: -moz-linear-gradient(right, #988cf2, #7468e8);
+    display: flex;
+    flex-direction: column;
+    color: #fff; 
+    height: 75px;
+    border-radius: 5px;
+    justify-content: space-around;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.lucre>div:nth-child(2){
+     background: linear-gradient(to right, #cfd4da , #abb1bc);
+    background: -webkit-linear-gradient(left, #cfd4da , #abb1bc);
+    background: -o-linear-gradient(right, #cfd4da, #abb1bc); 
+    background: -moz-linear-gradient(right, #cfd4da, #abb1bc);
+}
+.lucre .lucre_tit{
+    font-size: 12px;
+    opacity: 0.9;
+
+}   
+.lucre_info>div:nth-child(2){
+    font-size: 13px;
+    width: 100%;
+    word-wrap:break-word
+}

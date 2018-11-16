@@ -1,0 +1,45 @@
+.Subscription .am-list-body .am-list-line>div{
+    font-size: 13px;
+}
+.Subscription .am-list-item .am-input-label.am-input-label-5{
+    width: 110px;
+}
+.Subscription .am-list-body .am-input-control input[placeholder]{
+    text-align: right;
+    font-size: 13px;
+}
+.Subscription .subBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.Subscription .subBtn .am-button{
+    font-size: 14px;
+    height: 35px;
+    border-radius: 30px;
+    background: #f41938;
+    line-height: 35px;
+    width: 114px;
+}
+.Subscription .am-list-item .am-list-line .am-list-extra{
+    flex-basis:23%;
+}
+html:not([data-scale]) .Subscription .am-list-extra  .am-button-ghost::before{
+    border: none;
+}
+.Subscription .am-list-item .am-list-line-multiple{
+    padding: 0px 16px 0 0;
+}
+.Subscription .am-list-item .am-list-line .am-list-content{
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+}
+.Subscription .am-list-item .am-list-line .am-list-extra .extra_num{
+    width: 10px!important;
+}
+.Subscription .am-list-line .h5numInput{
+    font-size: 13px;
+    text-align: right;
+}

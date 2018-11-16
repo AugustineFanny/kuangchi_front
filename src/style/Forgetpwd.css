@@ -1,0 +1,150 @@
+.forgetpwd {
+	width: 100%;
+	 padding-top: 0px!important;
+	padding-bottom: 5rem;
+}
+
+.forgetpwd section:nth-child(1) {
+	width: 100%;
+}
+
+.forgetpwd section:nth-child(1) p {
+	text-align: right;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+/*设置登录图标*/
+.forgetpwd section:nth-child(2) {
+	width: 100%;
+}
+
+.forgetpwd section:nth-child(2) div {
+	width: 250px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.forgetpwd section:nth-child(2) img {
+	width: 85%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+/*设置忘记密码输入框*/
+.forgetpwd section:nth-child(3) {
+	margin-top: 50px;
+}
+
+.forgetpwd section:nth-child(3) .otc_forgetpwd {
+	border: none;
+	padding: 5px;
+}
+
+.forgetpwd section:nth-child(3) .otc_forgetpwd .am-list {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.forgetpwd section:nth-child(3) .otc_forgetpwd .am-list .am-list-body {
+	background: #f5f5f9;
+	list-style: none;
+	border: none;
+	position: inherit;
+}
+
+.otc_forgetpwd .am-list-item {
+	background: #f5f5f9;
+	border: 1px solid #f41938;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+
+.otc_forgetpwd .am-list-item img {
+	width: 22px;
+	height: 22px;
+}
+
+.otc_forgetpwd .am-list label {
+	width: 1px;
+	background: #fc95b3;
+	height: 30px;
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: middle;
+}
+
+.otc_forgetpwd input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #f5f5f9 inset;
+}
+.otc_forgetpwd .am-list-item.am-input-item{
+	height: 3.7rem;
+}
+/*设置验证码*/
+
+.otc_forgetpwd .otc-code {
+	width: 100%;
+	height: 3.7rem;
+	min-height: 44px;
+	overflow: hidden;
+	border: 1px solid #f41938;
+	border-radius: 3.7rem;
+	background: url(../img/bc-red.jpg) no-repeat;
+	margin-bottom: 20px;
+}
+
+.otc_forgetpwd .otc-code .otc-code-l {
+	float: left;
+	width: 70%;
+}
+
+.otc_forgetpwd .otc-code .otc-code-l .am-list-item {
+	border: none;
+	border-radius: 0px;
+	border-right: none;
+}
+
+.otc_forgetpwd .otc-code .otc-code-r {
+	float: left;
+	width: 29%;
+	height: 3.7rem;
+	min-height: 44px;
+	text-align: center;
+	line-height: 3.7rem;
+	border-left: 2px solid #f41938;
+	background: #f41938;
+	color: #FFFDEF;
+	font-size: 14px;
+}
+
+
+
+/*设置确定按钮*/
+.otc_forgetpwd #otc_but {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3.7rem;
+	margin: 0 auto;
+	border: 1px solid #FF1100;
+	border-radius:3.7rem;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	background: #f41938;
+	box-shadow: 0 0.12rem 0.16rem #f41938;
+}
+
+.otc_forgetpwd #otc_but div {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 17px;
+	letter-spacing: 10px;
+}
+.forgetpwd .am-list-item .am-input-control input{
+	font-size: 14px;
+}
+.forgetpwd .am-list-item .am-input-label.am-input-label-5{
+	width: 55px;
+}

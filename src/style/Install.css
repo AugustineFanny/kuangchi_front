@@ -1,0 +1,22 @@
+.tao_install{
+    width: 100%;
+    height: 100%;
+}
+.tao_install ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background: #fff;
+    color: #232a34;
+    padding: 0 13px;
+    box-sizing: border-box;
+    font-size:14px;
+    
+}
+
+.tao_myBody li .icon{
+    font-size: 16px;
+}

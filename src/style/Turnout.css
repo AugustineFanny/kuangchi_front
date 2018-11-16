@@ -1,0 +1,10 @@
+.turnout {
+    width: 100%;
+    height: 100%;
+}
+.turnoutInfo{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 40px;
+    color: #999;
+}

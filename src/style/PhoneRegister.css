@@ -1,0 +1,186 @@
+.phoneregister {
+	width: 100%;
+	padding-bottom: 5rem;
+	 padding-top: 0px!important;
+}
+
+.phoneregister section:nth-child(1) {
+	width: 100%;
+}
+
+.phoneregister section:nth-child(1) p {
+	text-align: right;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+
+/*设置输入框*/
+
+.phoneregister section:nth-child(2) {
+	margin-top: 100px;
+}
+
+.phoneregister section:nth-child(2) .otc_phoneregister .am-list {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.otc_phoneregister .am-list .am-list-body {
+	background: #f5f5f9;
+	list-style: none;
+	border: none;
+	position: inherit;
+}
+
+.otc_phoneregister .am-list .am-list-body .am-list-item {
+	background: #f5f5f9;
+}
+
+.otc_phoneregister .am-list-item {
+	min-height: 3.7rem;
+	background: #f5f5f9;
+	border: 1px solid red;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+
+.otc_phoneregister p {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-indent: 5px;
+	font-size: 16px;
+	color: #232A34;
+}
+
+.otc_phoneregister .am-list-line {
+	margin: 6px 0;
+}
+
+.otc_phoneregister .am-input-control {
+	margin-left: 7px;
+}
+
+
+/*设置验证码*/
+
+.otc_phoneregister .otc-code {
+	width: 100%;
+	height: 3.7rem;
+	min-height: 44px;
+	overflow: hidden;
+	border: 1px solid red;
+	border-radius: 30px;
+	background: url(../img/bc-red.jpg) no-repeat;
+}
+
+.otc_phoneregister .otc-code .otc-code-l {
+	float: left;
+	width: 70%;
+}
+
+.otc_phoneregister .otc-code .otc-code-l .am-list-item {
+	border: none;
+	border-radius: 0px;
+	border-right: none;
+	height: 3.91rem;
+	min-height: 44px;
+}
+
+.otc_phoneregister .otc-code .otc-code-r {
+	float: right;
+	width: 30%;
+	height: 3.7rem;
+	min-height: 44px;
+	text-align: center;
+	line-height: 44px;
+	background: #f41938;
+	color: #FFFDEF;
+	font-size: 14px;
+}
+
+
+/*设置服务条款*/
+
+.otc_phoneregister .am-flexbox {
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.otc_phoneregister .am-checkbox-agree {
+	margin-left: 8px;
+}
+
+.otc_phoneregister .am-checkbox-agree .am-checkbox-inner {
+	width: 17px;
+	height: 17px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.otc_phoneregister .am-checkbox-agree .am-checkbox-inner:after{
+	height: 8px;
+}
+.otc_phoneregister .am-checkbox.am-checkbox-checked .am-checkbox-inner {
+	background: #f41938;
+}
+
+.otc_phoneregister .am-flexbox a {
+	color: #0e5bc0;
+}
+
+.otc_phoneregister .am-flexbox .am-checkbox-agree .am-checkbox-agree-label{
+	font-size: 14px;
+
+}
+.otc_phoneregister .am-list .otc-code .am-list-line {
+	width: 60%;
+}
+
+
+/*设置注册按钮*/
+
+.phoneregister #otc_but {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3.7rem;
+	margin: 0 auto;
+	border: 1px solid #FF1100;
+	border-radius:3.7rem;
+	color: #FFFFFF;
+	font-size: 17px;
+	min-height: 44px;
+	letter-spacing: 10px;
+	background: #f41938;
+	box-shadow: 0 0.12rem 0.16rem #f41938;
+	margin-top: 50px;
+}
+.phoneregister  .am-list-item .am-input-control input{
+	font-size: 14px;
+}
+.am-list-body div:not(:last-child) .am-list-line{
+	border: none;
+}
+.otc_phoneregister .am-list-item .am-list-line .am-list-extra{
+	font-size: 13px;
+	text-align: left;
+	flex-basis: 100%;
+	text-indent: 7px;
+}
+html:not([data-scale]) .phoneregister .am-list-body div:not(:last-child) .am-list-line::after{
+	height: 0px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), not all, (min-resolution: 2dppx){
+	html:not([data-scale]) .phoneregister .am-list-body::after{
+	height: 0px;
+	}
+}
+ @media (-webkit-min-device-pixel-ratio: 2), not all, (min-resolution: 2dppx){
+	html:not([data-scale]) .phoneregister .am-button::before{
+	width: 0px;
+	height: 0px;
+	}
+ 	}

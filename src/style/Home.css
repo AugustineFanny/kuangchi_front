@@ -1,0 +1,76 @@
+.tao_home{
+    width: 100%;
+    height: 100%;
+}
+.tao_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .5rem 0rem;
+}
+.tao_list p{
+    font-size: 12px;
+    line-height: 1.7rem;
+}
+.tao_list p span{
+    color: #6e6e6e;
+    margin-right: .4rem;
+    display: inline-block;
+}
+.tao_list .tao_amount span{
+    vertical-align: middle;
+
+}
+.tao_list .tao_amount span:nth-child(1){
+    display: inline-block;
+    max-width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.tao_list .tao_userImg{
+    width: 13%;
+    padding: 0 .6rem;
+}
+.tao_list .tao_userImg img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.tao_list .tao_tradeInfo {
+    width: 37%;
+}
+.tao_list .tao_tradeInfo h3{
+    font-size: 13px;
+    line-height: 2rem;
+}
+.tao_list .tao_price{
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 0.5rem;
+}
+.tao_list .tao_price h2{
+    width: 100%;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 15px;
+    color: #54d8a3;
+}
+.tao_list .tao_price .tao_buyBtn{
+
+    border-radius: 3rem;
+    background: #f41938;
+    border: none;
+}
+
+html:not([data-scale]) .am-button-primary::before{
+    border: none;
+}
+.tao_home .am-list-footer>div{
+    padding: 0px;
+}

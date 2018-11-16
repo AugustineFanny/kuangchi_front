@@ -1,0 +1,176 @@
+.tao_safe{
+    width: 100%;
+    height: 100%;
+}
+.tao_safeInfo .safeTitle{
+    width: 100%;
+    padding: 10px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+}
+.tao_safeInfo li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background: #fff;
+    color: #232a34;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.tao_safeInfo li span{
+    color: #666;
+}
+.tao_safeInfo li .icon{
+    font-size: 16px;
+    color: #666;
+}
+
+/*改密码*/
+.tao_changepwd{
+    width: 100%;
+    height: 100%;
+}
+
+.tao_changepwd .picker-list .am-list-body>p{
+    line-height: 25px;
+    padding-left: 15px;
+    color: #232a34;
+}
+.tao_changepwd .picker-list .am-list-body>p:nth-child(1){
+    padding-top: 10px;
+}
+.tao_changeInfo>p{
+    padding: 20px 0 40px 15px;
+}
+.tao_changepwd .tao_changeBtn{
+     display: flex;
+    justify-content: center;
+}
+
+.tao_changepwd .tao_changeBtn .am-button{
+    font-size: 14px;
+    height: 35px;
+    border-radius: 35px;
+    background: #f41938;
+    line-height: 35px;
+    width: 114px;
+}
+
+/*邮箱验证*/
+.tao_emailtest{
+    width: 100%;
+    height: 100%;
+}
+.tao_emailtest .am-list-body{
+    padding-top: 15px;
+}
+.tao_emailtest .am-list-body .am-list-content{
+    font-size: 14px;
+}
+.tao_emailtest .am-list-item .am-list-line-multiple{
+    padding: 0 15px 0 0;
+}
+.tao_emailtest .am-list-item.am-input-item{
+    padding-left: 0;
+}
+
+html:not([data-scale]) .tao_emailtest .am-list-extra  .am-button-ghost::before{
+    border: none;
+}
+ .tao_emailtest .am-list-item .am-input-control input {
+    font-size: 14px;
+ }
+ .tao_emailtest .am-list-body .am-list-content{
+    padding-bottom: 0px;
+ }
+ .tao_emailtest .tao_emailBtn{
+     display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.tao_emailtest .tao_emailBtn .am-button{
+    font-size: 14px;
+    height: 35px;
+    border-radius: 35px;
+    background: #f41938;
+    line-height: 35px;
+    width: 114px;
+}
+
+.tao_phonetest .am-list-body{
+    padding-top: 0px;
+}
+.tao_phonetest  .am-list-item{
+    /*height: 54px;*/
+}
+.tao_phonetest .am-list-item .am-list-line .am-list-content{
+    padding-top: 0px;
+}
+.tao_phonetest .am-list-item .am-list-line .am-list-extra{
+    font-size: 13px;
+}
+/*资金密码*/
+.tao_fundPwd{
+    width: 100%;
+    height: 100%;
+}
+.tao_fundPwd .am-list-body .am-list-content{
+    font-size: 14px;
+}
+html:not([data-scale]) .tao_fundPwd .am-list-extra  .am-button-ghost::before{
+    border: none;
+}
+.tao_fundPwd .am-list-item.am-input-item{
+    padding-left: 0;
+}
+.tao_fundPwd .am-list-content .am-list-item{
+    border-bottom: none;
+}
+html:not([data-scale]) .tao_fundPwd   .am-list-body div:not(:last-child) .am-list-content .am-list-line::after{
+    height: 0;
+}
+.tao_fundPwd .am-list-item .am-list-line-multiple{
+        padding: 5px 15px 0 0;
+}
+.tao_fundPwd .am-list-item .am-list-line .am-list-content{
+    padding-bottom: 0;
+}
+.tao_fundPwd .tao_fundMethod{
+    min-height: 44px;
+    line-height: 37px;
+    position: relative;
+}
+.tao_fundPwd .tao_fundMethod span:nth-child(2){
+    position: absolute;
+    right: 0px;
+}
+.tao_fundPwd .tao_fundBtn{
+        display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.tao_fundPwd .tao_fundBtn .am-button{
+    font-size: 14px;
+    height: 35px;
+    border-radius: 35px;
+    background: #f41938;
+    line-height: 35px;
+    width: 114px;
+}
+ .tao_fundPwd .am-list-item .am-input-control input {
+    font-size: 14px;
+ }
+ /*modal*/
+ .am-modal.am-modal-transparent .am-modal-content a{
+    font-size: 14px;
+ }
+  .am-modal.am-modal-transparent .am-modal-content .am-modal-title{
+    font-size: 15px;
+  }

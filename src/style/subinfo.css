@@ -1,0 +1,134 @@
+.subinfo{
+    width: 100%;
+    height: 100%;
+}
+.subinfo_content{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.subinfo_head{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px 10px 12px 0px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.subinfo_head .subinfo_logo{
+    display: inline-block;
+    width: 33px;
+    height: 20px;
+    background: #4db872;
+    font-size: 12px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-right: 10px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+.subinfo_head  span:nth-child(2){
+    font-weight: bold;
+}
+.subinfo_head  span:nth-child(3){
+    float: right;
+    font-size: 13px;
+    color: #000;
+}
+.subinfo_box{
+    padding: 15px 10px 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    background: #fff;
+}
+.subinfo_box p{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    color: #1a1e1f;
+}
+.subinfo_box p .subinfo_tit{
+    font-size: 18px;
+    font-weight: 600;
+}
+.subinfo_box p span:nth-child(1){
+    color: #919191;
+}
+
+.subinfo_form{
+    margin-top: 10px;
+    background: #fff;
+}
+.subinfo_form .am-image-picker-list{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.subinfo_form .am-list-line .am-input-label{
+    font-size: 14px;
+    width: 45px;
+    margin-right: 0px;
+}
+.subinfo_form .am-list-line .am-input-control input[placeholder]{
+    font-size: 12px;
+}
+ .subinfo .subinfo_head .noPay, .subinfo .subinfo_head .toexamine{
+    color: #f10;
+}
+
+ .subinfo .subinfo_head .complete{
+    color: #ff8d1f;
+}
+ .subinfo .subinfo_head .cancel, .subinfo .subinfo_head .autocancel{
+    color: #9496a3;
+}
+/*二维码*/
+.subinfo_form .addr_img{
+    padding: 5px 15px 15px 15px;
+}
+.subinfo_form .addr_img {
+    width: 157px;
+    height: 157px;
+    text-align: center;
+    margin: 15px auto;
+}
+.subinfo_form .addr_img  canvas{
+    display: block;
+    width: 157px !important;
+    height: 157px !important;
+}
+
+.subinfo_foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+.subinfo_foot .am-button{
+    width: 50%;
+    margin-right: 0px;
+    border: none!important;
+    height: 50px;
+    border-radius: 0px;
+    font-size: 14px;
+    color: #fff;
+}
+.subinfo_foot .am-button:nth-child(1){
+    background: #ff994a;
+}
+.subinfo_foot .am-button:nth-child(2){
+    background: #54d8a3;
+}
+
+
+/*蒙版*/
+.mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    background: rgba(7,17,27,0.8);
+}

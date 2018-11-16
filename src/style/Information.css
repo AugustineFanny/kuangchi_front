@@ -1,0 +1,27 @@
+.tao_information{
+    width: 100%;
+    height: 100%;
+}
+.tao_information ul{
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.tao_information li{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    color: #232a34;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 13px;
+}
+.tao_information li>div:nth-child(2){
+    color: #6e6e6e;
+}
+.tao_information li .icon{
+    font-size: 13px;
+}

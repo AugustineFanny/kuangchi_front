@@ -1,0 +1,51 @@
+.profit{
+    width: 100%;
+    height: 100%;
+}
+.profit .noData{
+      width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    font-size: 13px;
+    text-align: center;
+}
+.profit .profit_footer .am-button{
+    font-size: 13px;
+}
+.profit .profit_footer .am-pagination-wrap{
+    font-size: 14px;
+}
+.profit .profit_info{
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    padding-bottom: 10px;
+    background: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.profit .profit_info .profit_tit{
+    width: 100%;
+ line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profit .profit_info .profit_content{
+     width: 100%;
+    line-height: 30px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profit .profit_content span{
+    color: #bdbdbd;
+}
+.profit .profit_info  .profit_tit span{
+    font-size: 12px;
+    color: #bdbdbd;
+}
+.profit .profit_info .profit_tit  .profit_cuur{
+    font-weight: bold;
+    font-size: 16px;
+    color: #232a34;
+}

@@ -1,0 +1,115 @@
+.tao_my{
+    width: 100%;
+    height: 100%;
+     padding-top: 0px!important;
+     padding-bottom: 20px;
+    
+}
+.tao_myhead{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    color: rgba(255,255,255,0.9);
+    font-size: 12px;
+    background: url("../img/bg.jpg")no-repeat  0px 0px;
+    background-size: 100%;
+}
+.tao_myhead>section{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    height: 60px;
+}
+.tao_myhead>section img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.tao_myhead>section:nth-child(1){
+    width: 20%;
+    padding-left: 15px;
+}
+.tao_myhead>section:nth-child(2){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tao_myhead>section:nth-child(2) .username{
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+
+.tao_myhead>section:nth-child(2) .trust{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.tao_myhead>section:nth-child(2) .contact{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tao_myhead>section .icon{
+    font-size: 16px;
+}
+.tao_myhead>section:nth-child(3){
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.tao_myhead>section:nth-child(3) .icon{
+    font-size: 14px;
+}
+.tao_myhead>section:nth-child(3) a span{
+    color: rgba(255,255,255,0.9);
+    vertical-align: middle;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.tao_myBody li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background: #fff;
+    color: #232a34;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.tao_myBody li .icon{
+    font-size: 16px;
+}
+.tao_myBody li>div:nth-child(1) .icon{
+    margin-right: 10px;
+}
+.tao_myBody li>div:nth-child(2){
+    font-size: 13px;
+    color: #999;
+}
+.tao_myBody .set{
+    background: #f8f8f8;
+    margin-bottom: 0px;
+    height: 15px;
+}
+.am-modal-button-group-h .am-modal-button:first-child{
+	color: #108ee9;
+}
+
+.tao_myBody .outlogin {
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+}
+.tao_myBody .outlogin span{
+
+}

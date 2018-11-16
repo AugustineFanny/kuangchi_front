@@ -1,0 +1,76 @@
+.pool{
+    width: 100%;
+    height: 100%
+}
+.pool_list .pool_info{
+    width: 100%;
+    background: #fff;
+    line-height: 25px;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.pool_list .pool_info>div:nth-child(1){
+    display: flex;
+    line-height: 35px;
+    justify-content: space-between;
+    background: #f5f5f9;
+    font-size: 13px;
+      padding: 5px 15px;
+}
+.pool_list .pool_info>div:nth-child(2){
+      padding: 5px 15px;
+
+}
+.pool_list .pool_info p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #232a34;
+}
+.pool_list .pool_info section{
+    border-top: 1px solid #dedede;
+    font-size: 12px;
+    padding-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.pool_list .pool_info section div{
+    margin-right: 10px;
+}
+.pool_list .pool_info section div:nth-child(1){
+  /*  display: flex;
+    align-items: center;*/
+    margin-right: 20px;
+}
+.pool_list .pool_info section  .am-button-small{
+    font-size: 13px;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 9px;
+}
+.pool_list .pool_info section  .am-button-small:nth-child(1){
+    margin-right: 10px;
+    float: left;
+}
+.pool_list .pool_info section  .am-button-small:nth-child(2){
+    float: right;
+}
+.pool_list .pool_info section .am-button-ghost.am-button-disabled{
+    color: #999;
+    border:1px solid #999;
+}
+.pool_list  .noData{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    font-size: 13px;
+    text-align: center;
+}
+.pool .profit_footer .am-button{
+    font-size: 13px;
+}
+.pool .profit_footer .am-pagination-wrap{
+    font-size: 14px;
+}

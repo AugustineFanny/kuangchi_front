@@ -1,0 +1,124 @@
+.tao_footers{
+    width: 100%;
+}
+.tao_footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-around;
+    background: #fafafa;
+    border-top: 1px solid #e0e0e0;
+    padding: 0.3rem 0;
+}
+
+.tao_footer div{
+    height: 100%;
+}
+
+.tao_footer a{
+    color:#232a34;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+.tao_footer a i{
+    font-size: 28px;
+    color: #232a34;
+}
+.tao_footer .selected i{
+    color: #f41938;
+}
+.tao_footer .selected{
+     color: #f41938;
+}
+.tao_footer a .icon-jiahao{
+    /*color: rgba(255,255,255,0);*/
+    font-size:42px;
+    color: #f10;
+}
+
+.tao_footer .releaseIcon{
+    background: #fafafa;
+    padding: .01rem;
+    border-radius: 50%;
+    border-bottom: none;
+    position: absolute;
+    top: -30px;
+    z-index: 99;
+}
+.tao_footer .releaseIcon .icon-jiahao{
+    font-size:50px;
+    color: #f10;
+}
+.tao_footer_news .am-list-item{
+	padding-left: 0px;
+    overflow: visible;
+}
+.tao_footer_news .am-list-item .am-list-line{
+	padding-right: 0px;
+    overflow: visible;
+}
+.tao_footer_news .am-list-item .am-list-line .am-list-content{
+	line-height: normal;
+	background-color: #fafafa;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.tao_footer_news  .am-list-item .am-list-line .am-list-extra{
+	position: absolute;
+	padding-top: 0px;
+	font-size: 13px;
+	height: 28px;
+    top: -3px;
+    right: -5px;
+}
+.tao_footer_news .am-badge-text{
+    padding: 0px;
+    min-width: 18px;
+    background-color: #f41938;
+}
+
+/*trade footer*/
+.trade_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
+}
+.trade_footer>div{
+     display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-around;
+}
+.trade_footer>div>section{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+}
+.trade_footer>div>section a{
+  color: #fff;
+}
+.trade_footer>div>section .footBtn{
+    width: 100%;
+    height: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trade_footer .icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.trade_footer>div>section:nth-child(1){
+    background: #ff994a;
+}
+.trade_footer>div>section:nth-child(2){
+    background: #54d8a3;
+}

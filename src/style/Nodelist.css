@@ -1,0 +1,49 @@
+.nodelist{
+    width: 100%;
+    height: 100%;
+    border-top:  1px solid #eee;
+}
+.nodelist_info{
+    /*min-height: 650px;*/
+    background: #fff;
+}
+.nodelist .nodeHead{
+    width: 100%;
+    height: 35px;
+    background: #f8f8f8;
+    line-height: 35px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+
+.nodelist .nodeBox{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding: 0 15px;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+.nodelist .nodeHead p span,.nodelist .nodeBox p span{
+    display: inline-block;
+}
+.nodelist .nodeHead p span:nth-child(1),.nodelist .nodeBox p span:nth-child(1){
+    width: 13%;
+    float: left;
+}
+.nodelist .nodeHead p span:nth-child(2),.nodelist .nodeBox p span:nth-child(2){
+    /*float: right;*/
+    text-align: center;
+    width: 72%;
+}
+.nodelist .nodeHead p span:nth-child(3),.nodelist .nodeBox p span:nth-child(3){
+    float: right;
+    width: 15%;
+    text-align: right;
+
+}
+.nodelist .nodeBox .ranking{
+    text-indent: 3px;
+}

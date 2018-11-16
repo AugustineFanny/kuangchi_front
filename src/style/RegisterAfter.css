@@ -1,0 +1,64 @@
+.registerafter{
+	width: 100%;
+	padding-bottom: 5rem;
+	 padding-top: 0px!important;
+	
+}
+.registerafter section{
+	width: 100%;
+	padding-top: 100px;
+}
+.otc_registerafter .am-list{
+	width: 85%;
+	margin: 0 auto;
+}
+/*设置输入框*/
+.otc_registerafter .am-list .am-list-body{
+	background: #f5f5f9;
+	list-style: none;
+	border: none;
+	position: inherit;
+}
+.otc_registerafter .am-list .am-list-body .am-list-item{
+	background: #f5f5f9;
+}
+.otc_registerafter .am-list-item {
+	height: 3.7rem;
+	background: #f5f5f9;
+	border: 1px solid #f41938;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+.otc_registerafter p{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-indent: 5px;
+	font-size: 16px;
+	color: #232A34;
+}
+
+/*设置登录按钮*/
+.otc_registerafter #otc_but {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3.7rem;
+	margin: 0 auto;
+	border: 1px solid #FF1100;
+	border-radius:3.7rem;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	background: #f41938;
+	box-shadow: 0 0.12rem 0.16rem #f41938;
+}
+
+.otc_registerafter #otc_but div {
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 10px;
+	font-size: 1.5rem;
+	font-size: 17px;
+}
+.registerafter .am-list-item .am-input-control input{
+	font-size: 14px;
+}

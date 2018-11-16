@@ -1,0 +1,33 @@
+.section-seperator .fl-module-button .fl-button-center{
+    text-align: center;
+}
+.section-seperator .fl-module-button  .fl-button-wrap a.fl-button {
+    border: none;
+    border-radius: 2px;
+    padding: 14px 40px;
+}
+.section-seperator .fl-module-button a.fl-button,.section-seperator .fl-module-button a.fl-button:visited {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-shadow: none;
+    background: #4b4b4b; 
+    color: #ffffff; 
+    border: 1px solid #3f3f3f; 
+}
+.fl-button-text{
+     font-size: 18px;
+     color: #fff;
+}
+.section-seperator .fl-module-button a.fl-button:hover{
+    background: #3a3a3a;
+}
+.row{
+    margin-top: 50px;
+}

@@ -1,0 +1,118 @@
+.wallet_detail{
+    width: 100%;
+    height: 100%;
+}
+.wallet_detail .wallet_tit{
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url("../img/totalbg.jpg");
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+.wallet_details{
+    /*padding: 10px 0px 0px;*/
+}
+.wallet_detail .wallet_tit h2{
+    font-weight: normal;
+   
+}
+.wallet_detail .wallet_tit p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+    font-size: 12px;
+}
+.wallet_Info .wallet_Infos{
+    width: 100%;
+    height: 15px;
+}
+.wallet_Info .w_Info{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.wallet_Info .w_Info p{
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*record*/
+.wallet_Info .record_info{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.wallet_Info .record_info p{
+    font-size: 13px;
+    line-height: 25px;
+}
+.wallet_Info .record_info .txid{
+    word-wrap:break-word
+}
+
+.wallet_foot{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+}
+.wallet_foot>div{
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+}
+.wallet_foot>div a{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.wallet_foot>div:nth-child(1){
+    background: #ff994a;
+}
+.wallet_foot>div:nth-child(2){
+    background: #54d8a3;
+}
+.wallet_foot #disable{
+    background: #d9d9d9;
+}
+.wallet_foot #disable:nth-child(1){
+    border-right: 1px solid #f7f7f7;
+}
+/*tab*/
+.wallet_detail .wallet_Info .am-tabs-default-bar-tab{
+    font-size: 13px;
+    color: #bcbcbc;
+}
+.wallet_detail .wallet_Info  .am-tabs-default-bar-tab-active{
+    color: #000;
+}
+.wallet_detail .wallet_Info .am-tabs-default-bar-underline{
+    border-color: #000;
+}
+.mytrade_footer .am-button{
+    font-size: 13px;
+}
+.mytrade_footer .am-pagination-wrap{
+    font-size: 14px;
+}
