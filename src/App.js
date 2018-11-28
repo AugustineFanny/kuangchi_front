@@ -60,12 +60,12 @@ const App = () => (
     <div className="tao_app">
       <div className="tao_container">
           <Route exact path="/kuangfront" component={Login}/>
-           {/**<PrivateRoute path="/kuangfront/mywallet" component={Mywallet}/>
-          <PrivateRoute path="/kuangfront/wdetail" component={Wdetail}/>**/}
+          <PrivateRoute path="/kuangfront/mywallet" component={Mywallet}/>
+          <PrivateRoute path="/kuangfront/wdetail" component={Wdetail}/>
           <PrivateRoute path="/kuangfront/my" component={My}/>        
-           {/**<Route path="/kuangfront/register" component={Register}/>**/}
+          <Route path="/kuangfront/register" component={Register}/>
           <Route path="/kuangfront/registerafter" component={RegisterAfter}/>
-          {/**<Route path="/kuangfront/phoneregister" component={PhoneRegister}/>**/}   
+          <Route path="/kuangfront/phoneregister" component={PhoneRegister}/>
           <Route path="/kuangfront/emailregister" component={EmailRegister}/>   
           <Route path="/kuangfront/login" component={Login}/>   
           <PrivateRoute path="/kuangfront/install" component={Install}/>   
@@ -74,14 +74,14 @@ const App = () => (
           <PrivateRoute path="/kuangfront/material" component={Material}/>   
           <PrivateRoute path="/kuangfront/changepwd" component={Changepwd}/> 
           <PrivateRoute path="/kuangfront/safely" component={Safely}/> 
-           {/** <Route path="/kuangfront/terms" component={Terms}/> **/}
+          <Route path="/kuangfront/terms" component={Terms}/>
           <PrivateRoute path="/kuangfront/emailtest" component={Emailtest}/> 
-          {/**<PrivateRoute path="/kuangfront/phonetest" component={Phonetest}/> **/}
+          <PrivateRoute path="/kuangfront/phonetest" component={Phonetest}/>
           <PrivateRoute path="/kuangfront/fundpwd" component={Fundpwd}/> 
 					<Route path="/kuangfront/forgetpwd" component={Forgetpwd}/> 
-					{/**<PrivateRoute path="/kuangfront/recharge" component={Recharge}/>
+					<PrivateRoute path="/kuangfront/recharge" component={Recharge}/>
           <PrivateRoute path="/kuangfront/withdrawals" component={Withdrawals}/>
-          <PrivateRoute path="/kuangfront/record" component={Record}/> **/}
+          <PrivateRoute path="/kuangfront/record" component={Record}/>
           <PrivateRoute path="/kuangfront/share" component={Share}/> 
           <PrivateRoute path="/kuangfront/finance" component={Finance}/> 
           <PrivateRoute path="/kuangfront/transfer" component={Transfer}/> 
