@@ -498,7 +498,7 @@ const zh_CN = {
     "coinSet": "矿池管理",
     "Crossrotation": "平台内互转",
     "rotaRecord": "内转记录",
-    "nodeList": "节点列表",
+    "mywallet": "我的资产",
     "myPublice": "我的推荐",
     "subscription": "认购",
     "subRecord": "认购记录",

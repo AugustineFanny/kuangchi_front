@@ -504,7 +504,7 @@ const en_US = {
 	"coinSet": "Mine pool management",
 	"Crossrotation": "Cross rotation",
 	"rotaRecord": "Rotation record",
-	"nodeList": "Node list",
+	"mywallet": "finance",
 	"myPublice": "My promotion",
 	"subscription": "Subscription",
 	"subRecord": "Subscription record",

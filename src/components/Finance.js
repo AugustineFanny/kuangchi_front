@@ -91,17 +91,17 @@ class Finance extends React.Component {
                              />
                          </div>
                    </Link>
-                     <Link className="finBtn" to={"/kuangfront/nodelist"}>
+                     <Link className="finBtn" to={"/kuangfront/mywallet"}>
 
                          <div>
                             <i className="icon iconfont icon-liebiao"></i>
                              <FormattedMessage
                                 tagName="p"
-                                id='nodeList'
-                                defaultMessage = "节点列表"
+                                id='mywallet'
+                                defaultMessage = "我的钱包"
                              />
                          </div>
-                   </Link>   
+                   </Link>  
                   </div>       
                   <div className="select_content">
                    <Link className="finBtn" to={"/kuangfront/myextension"}>

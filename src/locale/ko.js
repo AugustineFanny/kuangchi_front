@@ -499,7 +499,7 @@ const ko = {
     "coinSet": "광산지 관리",
     "Crossrotation": "서로 바꾸다",
     "rotaRecord": "내전 기록",
-    "nodeList": "노드 목록",
+    "mywallet": "finance",
     "myPublice": "나의 널리 보급하다.",
     "subscription": "구매를 인정하다",
     "subRecord": "구입 기록",
