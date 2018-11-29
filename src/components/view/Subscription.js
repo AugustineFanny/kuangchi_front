@@ -76,7 +76,7 @@ class SubscriptionForm extends React.Component {
       })
   }
   getCurr = () => {
-    axios.get("/kc/public/FET/exchange", {
+    axios.get("/kc/public/IUU/exchange", {
         headers: {
           "authorization": sessionStorage.getItem("authorization")
         }
@@ -107,7 +107,7 @@ class SubscriptionForm extends React.Component {
   }
   changeCurr = (value) => {
       var val = value[0];
-      axios.get("/kc/public/FET/exchange", {
+      axios.get("/kc/public/IUU/exchange", {
           headers: {
             "authorization": sessionStorage.getItem("authorization")
           }
@@ -317,13 +317,13 @@ class SubscriptionForm extends React.Component {
     var extra;
     var extra2;
     if (this.state.showPrice) {
-      ratio = `1 ${this.state.currency} = ${this.state.price} FET`;
+      ratio = `1 ${this.state.currency} = ${this.state.price} IUU`;
       // placeholder = this.props.intl.formatMessage({
       //   id: 'ableUse'
       // }) + `${usableAmount} `;
       placeholder2 = `${ this.state.amount_fet}`;
       extra = <div>{this.state.currency} </div>;
-      extra2 = <div> FET</div>;
+      extra2 = <div> IUU</div>;
     }
     if (this.state.redirect) {
       return <Redirect push to="/kuangfront/fundpwd" />;
