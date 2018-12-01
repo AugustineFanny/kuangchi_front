@@ -189,11 +189,6 @@ class Poolrecord extends React.Component {
                                                                 defaultMessage = "已解锁"
                                                              /><span>{item.unlock_num} / 10</span></p>
                                                          }
-                                                         <p><FormattedMessage
-                                                            id='ice_out'
-                                                            defaultMessage = "解冻时间"
-                                                         /><span>{showDate(item.expire_date)}</span></p>
-                                                    
                                                     <section><div></div><div><Button style={{display:"none"}} type="ghost" inline size="small" disabled><FormattedMessage
                                                             id='turnout'
                                                             defaultMessage = "转出"
