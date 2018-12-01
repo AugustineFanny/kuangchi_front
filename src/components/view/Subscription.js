@@ -328,17 +328,17 @@ class SubscriptionForm extends React.Component {
     if (this.state.redirect) {
       return <Redirect push to="/kuangfront/fundpwd" />;
     }
-    if (this.state.gotoSure) {
-      return <Redirect push to = {
-        {
-          pathname: '/kuangfront/subinfo',
-          state: {
-            order: this.state.order,
-          }
-        }
-      }
-      />;
-    }
+    // if (this.state.gotoSure) {
+    //   return <Redirect push to = {
+    //     {
+    //       pathname: '/kuangfront/subinfo',
+    //       state: {
+    //         order: this.state.order,
+    //       }
+    //     }
+    //   }
+    //   />;
+    // }
     return (
       <div className="Subscription">
                   <Head />
