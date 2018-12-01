@@ -74,7 +74,7 @@ class Poolrecord extends React.Component {
         this.node.scrollIntoView();
     }
     getTrades = (page, status) => {
-        axios.get("/kc/wallet/FET/locked", {
+        axios.get("/kc/wallet/IUU/locked", {
                 headers: {
                     "authorization": sessionStorage.getItem("authorization")
                 }
