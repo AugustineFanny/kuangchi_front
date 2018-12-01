@@ -59,7 +59,7 @@ class Mineral extends React.Component {
                   <div><i className="icon iconfont icon-jiantou"></i></div>
               </li>
               </Link>
-               <Link to={"/kuangfront/attrecord"}>
+              {/**<Link to={"/kuangfront/attrecord"}>
               <li>
                   <div><i className="icon iconfont icon-jilu"></i><FormattedMessage
                                 id='turnRecord'
@@ -67,7 +67,7 @@ class Mineral extends React.Component {
                              /></div>
                   <div><i className="icon iconfont icon-jiantou"></i></div>
               </li>
-              </Link>
+              </Link>**/}
               <Link to={"/kuangfront/profit"}>
               <li>
                   <div><i className="icon iconfont icon-chashouyi"></i><FormattedMessage
