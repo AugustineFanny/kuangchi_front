@@ -175,8 +175,8 @@ class Poolrecord extends React.Component {
                                                     <div><p><FormattedMessage
                                                             id='sellAmount'
                                                             defaultMessage = "数量"
-                                                         /><span>{item.amount} / {item.total_amount}</span></p>
-                                                          {
+                                                         /><span>{item.amount} {item.currency}</span></p>
+                                                          {/**{
                                                             item.status == "2"?<p><FormattedMessage
                                                                 id='Notes'
                                                                 defaultMessage = "注释"
@@ -189,7 +189,7 @@ class Poolrecord extends React.Component {
                                                                 defaultMessage = "已解锁"
                                                              /><span>{item.unlock_num} / 10</span></p>
                                                          }
-                                                    {/**<section><div></div><div><Button style={{display:"none"}} type="ghost" inline size="small" disabled><FormattedMessage
+                                                    <section><div></div><div><Button style={{display:"none"}} type="ghost" inline size="small" disabled><FormattedMessage
                                                             id='turnout'
                                                             defaultMessage = "转出"
                                                          /></Button>
