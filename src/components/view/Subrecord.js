@@ -160,7 +160,6 @@ class Subrecord extends React.Component {
                                         this.state.dataList.map((item,index)=>{
                                             return(
                                                 <div key={item.id} className="sub_info">
-                                                    <Link to={this.gotoSure(item.order)}>
                                                      <div className="sub_title">
                                                         <span className="sub_logo">
                                                                     <FormattedMessage
@@ -174,14 +173,8 @@ class Subrecord extends React.Component {
                                                          <div className="sub_infos">
                                                             <section><p>{item.base}</p><p>-{item.base_amount}</p></section>
                                                             <section><p>{item.currency}</p><p>+{item.currency_amount}</p></section>
-                                                            <section><FormattedMessage
-                                                                        tagName="p"
-                                                                        id='order'
-                                                                        defaultMessage = "订单号"
-                                                                    /><p></p><p>{item.order}</p></section>
                                                          </div>
                                                      </div>
-                                                     </Link>
                                                 </div>
                                                 )
                                         })
