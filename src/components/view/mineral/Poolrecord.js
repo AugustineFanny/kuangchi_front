@@ -74,7 +74,7 @@ class Poolrecord extends React.Component {
         this.node.scrollIntoView();
     }
     getTrades = (page, status) => {
-        axios.get("/kc/wallet/FET/locked", {
+        axios.get("/kc/wallet/IUU/locked", {
                 headers: {
                     "authorization": sessionStorage.getItem("authorization")
                 }
@@ -175,8 +175,8 @@ class Poolrecord extends React.Component {
                                                     <div><p><FormattedMessage
                                                             id='sellAmount'
                                                             defaultMessage = "数量"
-                                                         /><span>{item.amount} / {item.total_amount}</span></p>
-                                                          {
+                                                         /><span>{item.amount} {item.currency}</span></p>
+                                                          {/**{
                                                             item.status == "2"?<p><FormattedMessage
                                                                 id='Notes'
                                                                 defaultMessage = "注释"
@@ -189,11 +189,6 @@ class Poolrecord extends React.Component {
                                                                 defaultMessage = "已解锁"
                                                              /><span>{item.unlock_num} / 10</span></p>
                                                          }
-                                                         <p><FormattedMessage
-                                                            id='ice_out'
-                                                            defaultMessage = "解冻时间"
-                                                         /><span>{showDate(item.expire_date)}</span></p>
-                                                    
                                                     <section><div></div><div><Button style={{display:"none"}} type="ghost" inline size="small" disabled><FormattedMessage
                                                             id='turnout'
                                                             defaultMessage = "转出"
@@ -205,7 +200,7 @@ class Poolrecord extends React.Component {
                                                                 defaultMessage = "转让"
                                                             /></Button>
                                                         }
-                                                    </div></section>
+                                                    </div></section>**/}
                                                     </div>
                                                 </div>
                                                 )

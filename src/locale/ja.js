@@ -497,7 +497,7 @@ const jp = {
     "coinSet": "鉱池管理",
     "Crossrotation": "互いに回転する",
     "rotaRecord": "レコード",
-    "nodeList": "ノードリスト",
+    "mywallet": "finance",
     "myPublice": "私の普及",
     "subscription": "買い取る",
     "subRecord": "買い取り記録",

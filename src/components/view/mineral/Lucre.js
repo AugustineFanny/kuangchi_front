@@ -23,7 +23,7 @@ class lucre extends React.Component {
     }
   }
   componentDidMount() {
-    axios.get("/kc/wallet/FET/mining-stat", {
+    axios.get("/kc/wallet/IUU/mining-stat", {
         headers: {
           "authorization": sessionStorage.getItem("authorization")
         }
@@ -58,14 +58,14 @@ class lucre extends React.Component {
                         id='earnings'
                         defaultMessage = "昨日收益"
                        /></div>
-                    <div >{this.showAmount(data.yesterday)} FET</div>
+                    <div >{this.showAmount(data.yesterday)} IUU</div>
                 </div>
                 <div className="lucre_info">
                   <div className="lucre_tit"> <i className="icon iconfont icon-leijishouyi"></i> <FormattedMessage
                         id='monthearnings'
                         defaultMessage = "本月收益"
                        /></div>
-                    <div >{this.showAmount(data.month)} FET</div>
+                    <div >{this.showAmount(data.month)} IUU</div>
               </div>
       </div>
 

@@ -42,7 +42,7 @@ class Profit extends React.Component {
         this.node.scrollIntoView();
     }
     getTrades = (page) => {
-        axios.get("/kc/wallet/FET/mining", {
+        axios.get("/kc/wallet/IUU/mining", {
                 params: {
                     page: page,
                 },
@@ -120,7 +120,7 @@ class Profit extends React.Component {
                                     this.state.data.map((item,index)=>{
                                         return(
                                              <div  key={index+"1"} className="profit_info">
-                                                 <div className="profit_tit"><span className="profit_cuur">FET</span><span>{this.changeStatus(item.desc)}</span></div>
+                                                 <div className="profit_tit"><span className="profit_cuur">IUU</span><span>{this.changeStatus(item.desc)}</span></div>
                                                 <div className="profit_content">
                                                     <span>{item.amount}</span>
                                                     <span>{showDatetime(item.create_time)}</span>

@@ -23,7 +23,7 @@ class Account extends React.Component {
   componentDidMount() {
     axios.get('/kc/wallet/finance', {
         params: {
-          currency: "FET"
+          currency: "IUU"
         },
         headers: {
           "Content-Type": "application/json",
@@ -50,14 +50,14 @@ class Account extends React.Component {
                                 id='Activeaccount'
                                 defaultMessage = "活动账户"
                              /></div>
-              <div className="current_amount">{this.state.data.current} FET</div>
+              <div className="current_amount">{this.state.data.current} IUU</div>
           </div>      
           <div>
               <div className="current_tit"> <FormattedMessage
                                 id='Numbercoins'
                                 defaultMessage = "矿池币数"
                              /></div>
-              <div className="current_amount">{this.state.data.mining_amount} FET</div>
+              <div className="current_amount">{this.state.data.mining_amount} IUU</div>
           </div>      
       </div>
     )
