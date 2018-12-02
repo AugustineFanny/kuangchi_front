@@ -1,51 +1,56 @@
 .phoneregister {
 	width: 100%;
-	padding-bottom: 5rem;
-	 padding-top: 0px!important;
+	height: 100%;
+	/* padding-bottom: 5rem; */
+	padding-top: 0px!important;
+	background: url('../img/background.jpg');
+	background-size: 100%;
 }
 
-.phoneregister section:nth-child(1) {
-	width: 100%;
-}
 
-.phoneregister section:nth-child(1) p {
-	text-align: right;
-	font-size: 14px;
-	color: #000000;
-	font-weight: 500;
-	padding-top: 20px;
-	padding-right: 20px;
+.phoneregister section:nth-child(1) .login-logo {
+	width: 80px;
+	height: 77.83px;
+	margin: 0 auto;
+	background: url('../img/logo.png');
+	background-size: 80px 77.83px;
+	margin-top: 40px;
 }
 
 
 /*设置输入框*/
 
 .phoneregister section:nth-child(2) {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .phoneregister section:nth-child(2) .otc_phoneregister .am-list {
-	width: 85%;
+	width: 93%;
 	margin: 0 auto;
 }
 
 .otc_phoneregister .am-list .am-list-body {
-	background: #f5f5f9;
 	list-style: none;
 	border: none;
 	position: inherit;
+	background: none;
 }
 
 .otc_phoneregister .am-list .am-list-body .am-list-item {
-	background: #f5f5f9;
+}
+.otc_phoneregister .am-list .am-list-body>div{
+	margin-bottom: 10px;
 }
 
 .otc_phoneregister .am-list-item {
 	min-height: 3.7rem;
-	background: #f5f5f9;
-	border: 1px solid red;
-	margin-bottom: 20px;
-	border-radius: 30px;
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.otc_phoneregister .am-list-item .am-input-label.am-input-label-5{
+    width: 25px;
+    color: #fff;
 }
 
 .otc_phoneregister p {
@@ -72,9 +77,8 @@
 	height: 3.7rem;
 	min-height: 44px;
 	overflow: hidden;
-	border: 1px solid red;
-	border-radius: 30px;
-	background: url(../img/bc-red.jpg) no-repeat;
+	border: 1px solid #fff;
+	border-radius: 5px;
 }
 
 .otc_phoneregister .otc-code .otc-code-l {
@@ -97,9 +101,11 @@
 	min-height: 44px;
 	text-align: center;
 	line-height: 44px;
-	background: #f41938;
-	color: #FFFDEF;
+	background: none;
+	color: #ccc;
+	border-left: 1px solid #fff;
 	font-size: 14px;
+	border-radius: 0px;
 }
 
 
@@ -148,18 +154,16 @@
 	justify-content: center;
 	height: 3.7rem;
 	margin: 0 auto;
-	border: 1px solid #FF1100;
-	border-radius:3.7rem;
-	color: #FFFFFF;
-	font-size: 17px;
-	min-height: 44px;
-	letter-spacing: 10px;
-	background: #f41938;
-	box-shadow: 0 0.12rem 0.16rem #f41938;
-	margin-top: 50px;
+	border-radius: 5px;
+	font-size: 13px;
+	color: #fff;
+	background: #e56d48;
+	border: none;
+	letter-spacing: 5px;
 }
 .phoneregister  .am-list-item .am-input-control input{
 	font-size: 14px;
+	color: #fff;
 }
 .am-list-body div:not(:last-child) .am-list-line{
 	border: none;
@@ -183,4 +187,20 @@ html:not([data-scale]) .phoneregister .am-list-body div:not(:last-child) .am-lis
 	width: 0px;
 	height: 0px;
 	}
- 	}
+	 }
+	 
+
+.register-backlogin{
+	text-align: center;
+    width: 100%;
+	margin-top: 10px;
+}
+
+.register-backlogin a{
+	color: #fff;
+	font-size: 12px;
+}
+.register-backlogin a .icon{
+	margin-right: 5px;
+	font-size: 12px;
+}

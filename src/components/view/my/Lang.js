@@ -52,8 +52,6 @@ class Lang extends React.Component {
     }
     getLang = () => {
         let val = sessionStorage.getItem("lang");
-        console.log(val)
-
         switch (val) {
             case "zh-CN":
                 this.setState({

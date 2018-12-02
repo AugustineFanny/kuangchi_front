@@ -98,11 +98,11 @@
   },
   "proxy": {
     "/kc": {
-      "target": "https://www.bit591.io",
+      "target": "http://47.92.207.176:3000",
       "secure": false
     },
     "/uphp": {
-      "target": "https://www.bit591.io",
+      "target": "http://47.92.207.176:3000",
       "secure": false
     }
   },

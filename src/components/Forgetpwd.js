@@ -110,14 +110,14 @@ class BasicInputExample extends React.Component {
 		if (!ident) {
 			Toast.fail(this.props.intl.formatMessage({
 				id: 'ito_forget_input2'
-			}), 1.5);
+			}), 2);
 			return;
 		}
 		var captcha = form.getFieldValue("captcha");
 		if (!captcha) {
 			Toast.fail(this.props.intl.formatMessage({
 				id: 'ito_forget_input4'
-			}), 1.5);
+			}), 2);
 			return;
 		}
 		var new_password = form.getFieldValue("new_password");
@@ -125,19 +125,19 @@ class BasicInputExample extends React.Component {
 		if (!new_password || this.state.newPwd) {
 			Toast.fail(this.props.intl.formatMessage({
 				id: 'newPwdinput'
-			}), 1.5);
+			}), 2);
 			return;
 		}
 		if (!check_password || this.state.chechPwd) {
 			Toast.fail(this.props.intl.formatMessage({
 				id: 'oldMsg3'
-			}), 1.5);
+			}), 2);
 			return;
 		}
 		if (new_password != check_password) {
 			Toast.fail(this.props.intl.formatMessage({
 				id: 'pwddiff'
-			}), 1.5);
+			}), 2);
 			return;
 		}
 		var ident2 = telNumber(ident);
@@ -155,7 +155,7 @@ class BasicInputExample extends React.Component {
 				if (res.data.code == '100200') {
 					Toast.success(this.props.intl.formatMessage({
 						id: 'reSuccess'
-					}), 1.5);
+					}), 2);
 					setTimeout(function() {
 						window.location.href = "/kuangfront/login";
 					}, 1000)
@@ -173,7 +173,7 @@ class BasicInputExample extends React.Component {
 		if (!value) {
 			Toast.fail(this.props.intl.formatMessage({
 				id: 'ito_forget_input2'
-			}), 1.5);
+			}), 2);
 			return;
 		}
 		axios.get('/kc/captcha/send-captcha', {
@@ -220,12 +220,12 @@ class BasicInputExample extends React.Component {
 			getFieldProps
 		} = this.props.form;
 		return (
-			<div className="forgetpwd">
-		<section><p><Link to="/kuangfront/login"><FormattedMessage
+			<div className="forgetpwd-content">
+			{/* <section><p><Link to="/kuangfront/login"><FormattedMessage
                             id='login'
                              defaultMessage = "登录"
-                        /></Link></p></section>
-	            <section><div style={{width:"212px",height:"14px"}}></div></section>
+                        /></Link></p></section> */}
+				<section><div className="login-logo"></div></section>
                 <section>
                 	<div className="otc_forgetpwd"> 
                 		<List>
@@ -237,18 +237,20 @@ class BasicInputExample extends React.Component {
 									id: 'forget1'
 								})}
 					            ref={el => this.autoFocusInst = el}
-					          ><img src={require('../img/phone2.svg')} alt=""/><label></label>
+					          >
+							 <i className="icon iconfont icon-39"></i>
 	            			 </InputItem>
 					          
 					            <div className="otc-code">
 						         	<div className="otc-code-l">
-								         <InputItem
+								        <InputItem
 								            {...getFieldProps('captcha')}
 								            placeholder={this.props.intl.formatMessage({
 											id: 'loginInput4'
 										})}							            
-								         ><img src={require('../img/code.png')} alt=""/><label></label>
-								          </InputItem>
+								         >
+							   			<i className="icon iconfont icon-yanzhengma"></i>
+								        </InputItem>
 							        </div>
 							        <div className="otc-code-r" onClick={this.captcha} disabled={this.state.isDisabled}>{this.state.buttonText}</div>
 					         
@@ -274,7 +276,8 @@ class BasicInputExample extends React.Component {
 			                          }
 						            ref={el => this.autoFocusInst = el}
 					            
-						       ><img src={require('../img/password.svg')} alt=""/><label></label>
+						       >
+							   <i className="icon iconfont icon-mima"></i>
 						       </InputItem>		
 						       
 						      	 <InputItem
@@ -296,15 +299,24 @@ class BasicInputExample extends React.Component {
                          			onErrorClick={this.checkPwderr}
 						            ref={el => this.autoFocusInst = el}
 					            
-						        ><img src={require('../img/confirmpwd.svg')} alt=""/><label></label>
+						        >
+							    <i className="icon iconfont icon-mima"></i>
 						        </InputItem>		
 						       
 						        <List.Item  id="otc_but">
 					          		<div onClick={this.handleClick}><FormattedMessage
-                            id='sure'
-                             defaultMessage = "确定"
-                        /></div>
+										id='sure'
+										defaultMessage = "确定"
+									/></div>
 					          </List.Item>
+							  <p className="forget-backlogin">
+							  	<Link to="/kuangfront/login">
+								  <i className="icon iconfont icon-fanhui"></i>
+								  <FormattedMessage
+									id='login'
+									defaultMessage = "登录"
+								/></Link>
+							  </p>
                 		</List>
                 	</div>
                 </section>

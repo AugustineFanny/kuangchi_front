@@ -3,9 +3,23 @@
     height: 100%;
 }
 .tao_container{
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
 }
 .tao_container>div{
     padding-top: 45px;
     overflow: hidden;
+}
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+    width: 300px;
+    padding: 0;
 }

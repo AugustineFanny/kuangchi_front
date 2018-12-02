@@ -14,17 +14,15 @@
 }
 /*设置输入框*/
 .otc_registerafter .am-list .am-list-body{
-	background: #f5f5f9;
+	background: none;
 	list-style: none;
 	border: none;
 	position: inherit;
 }
 .otc_registerafter .am-list .am-list-body .am-list-item{
-	background: #f5f5f9;
 }
 .otc_registerafter .am-list-item {
 	height: 3.7rem;
-	background: #f5f5f9;
 	border: 1px solid #f41938;
 	margin-bottom: 20px;
 	border-radius: 30px;
