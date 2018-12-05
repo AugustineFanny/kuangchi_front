@@ -103,8 +103,8 @@ class App extends React.Component {
           > */}
             <div className="tao_container">
               <Route exact path="/kuangfront" component={Login}/>
-              {/**<PrivateRoute path="/kuangfront/mywallet" component={Mywallet}/>
-              <PrivateRoute path="/kuangfront/wdetail" component={Wdetail}/>**/}
+              <PrivateRoute path="/kuangfront/mywallet" component={Mywallet}/>
+              <PrivateRoute path="/kuangfront/wdetail" component={Wdetail}/>
               <PrivateRoute path="/kuangfront/my" component={My}/>        
               {/**<Route path="/kuangfront/register" component={Register}/>**/}
               <Route path="/kuangfront/registerafter" component={RegisterAfter}/>
@@ -122,9 +122,9 @@ class App extends React.Component {
               {/**<PrivateRoute path="/kuangfront/phonetest" component={Phonetest}/> **/}
               <PrivateRoute path="/kuangfront/fundpwd" component={Fundpwd}/> 
               <Route path="/kuangfront/forgetpwd" component={Forgetpwd}/> 
-              {/**<PrivateRoute path="/kuangfront/recharge" component={Recharge}/>
+              <PrivateRoute path="/kuangfront/recharge" component={Recharge}/>
               <PrivateRoute path="/kuangfront/withdrawals" component={Withdrawals}/>
-              <PrivateRoute path="/kuangfront/record" component={Record}/> **/}
+              <PrivateRoute path="/kuangfront/record" component={Record}/>
               <PrivateRoute path="/kuangfront/share" component={Share}/> 
               <PrivateRoute path="/kuangfront/finance" component={Finance}/> 
               <PrivateRoute path="/kuangfront/transfer" component={Transfer}/> 
